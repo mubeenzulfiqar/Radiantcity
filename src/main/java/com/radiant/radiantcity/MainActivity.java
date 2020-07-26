@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
                 } else if (pass.length() < 8) {
                     Toast.makeText(getApplicationContext(), "Password must be minimum of length 8", Toast.LENGTH_SHORT).show();
                 } else {
+
+                    
                     Log.w("username", "" + et_username.getText());
                     Log.w("password", "" + et_pass.getText());
                 }
